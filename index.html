@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Touch | Lawn & Cleaning Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Nature's Touch</div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Revitalize Your Space</h1>
+            <p>Professional Lawn Care & Cleaning Services in Somerset West.</p>
+            <div class="cta-group">
+                <a href="#contact" class="btn btn-primary">Book Now</a>
+                <a href="#services" class="btn btn-secondary">View Services</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-leaf icon"></i>
+                    <h3>Lawn Care</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Lawn mowing (Yards & Gardens)</li>
+                        <li><i class="fas fa-check"></i> Trimming bushes & weeds</li>
+                        <li><i class="fas fa-check"></i> Leaf & garden waste cleanup</li>
+                        <li><i class="fas fa-check"></i> One-time or Regular Maintenance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-broom icon"></i>
+                    <h3>Cleaning Services</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Residential Cleaning</li>
+                        <li><i class="fas fa-check"></i> Commercial Cleaning</li>
+                        <li><i class="fas fa-check"></i> Move-in / Move-out</li>
+                        <li><i class="fas fa-check"></i> Deep Cleaning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">See the Difference</h2>
+            <p style="text-align:center; margin-bottom: 20px;">Drag the slider to see the transformation.</p>
+            
+            <div class="slider-container">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1558905540-21290104f9e1?q=80&w=800&auto=format&fit=crop" alt="After" class="image-after">
+                    
+                    <div class="image-before-container">
+                        <img src="https://images.unsplash.com/photo-1593560833663-78e79870197d?q=80&w=800&auto=format&fit=crop" alt="Before" class="image-before">
+                    </div>
+                    
+                    <input type="range" min="0" max="100" value="50" class="slider" id="compareSlider">
+                    <div class="slider-line"></div>
+                    <div class="slider-button"><i class="fas fa-arrows-alt-h"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Nature's Touch</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <h3>Our Mission</h3>
+                    <p>To provide reliable, high-quality cleaning and gardening services that bring peace of mind and beauty to your environment.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Our Values</h3>
+                    <p>Integrity, Attention to Detail, Eco-Friendly Practices, and Customer Satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Simple Pricing</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h4>Basic Garden</h4>
+                    <p class="price">Contact for Quote</p>
+                    <ul>
+                        <li>Mowing & Edging</li>
+                        <li>Surface Cleanup</li>
+                        <li>Approx 1 Hour</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Quote</a>
+                </div>
+                <div class="price-card highlight">
+                    <h4>Full Service</h4>
+                    <p class="price">Best Value</p>
+                    <ul>
+                        <li>Mowing & Trimming</li>
+                        <li>Weeding & Pruning</li>
+                        <li>Waste Removal</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section dark-mode">
+        <div class="container">
+            <h2 class="section-title text-white">Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>063 991 7015</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>nelsonngorima15@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>59 Voortrekker Road, Somerset West, Canwick</span>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <select>
+                        <option>Lawn Care</option>
+                        <option>Cleaning</option>
+                        <option>Both</option>
+                    </select>
+                    <textarea placeholder="Tell us about your needs..." rows="5"></textarea>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nature's Touch and Cleaning Service. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
